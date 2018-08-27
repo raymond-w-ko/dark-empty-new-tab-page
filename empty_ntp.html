@@ -1,0 +1,24 @@
+<!--
+Chrome insists on putting "chrome://newtab" as title if there's no title,
+instead of putting something useful like a localized "New Tab" there.
+
+As a workaround, use a space as title. An empty tab is better than one saying
+something cryptic. Chrome puts "chrome://newtab" if the title is whitespace too,
+but it doesn't recognize all the whitespace characters listed at
+http://en.wikipedia.org/wiki/Space_(punctuation) :-)
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title&#65279;></title>
+    <style>
+body {
+  background-color: #000;
+}
+    </style>
+  </head>
+  <body>
+  </body>
+</html>

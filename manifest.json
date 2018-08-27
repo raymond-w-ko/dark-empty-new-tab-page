@@ -1,0 +1,13 @@
+{
+   "manifest_version": 2,
+   "name": "Dark Empty New Tab Page",
+   "version": "1.0.0",
+   "description": "With this extension, new tabs display a dark blank page instead of the usual new tab page with thumbnails.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "chrome_url_overrides": {
+      "newtab": "empty_ntp.html"
+   }
+}
